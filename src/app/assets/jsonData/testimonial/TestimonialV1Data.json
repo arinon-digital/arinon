@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "review": "Arinon’s dedication and expertise in social media have elevated our brand presence. We couldn’t ask for a better partner!",
+        "name": "LAXYA PRODUCTION",
+        "designation": "",
+        "thumb": "10.jpg"
+    },
+    {
+        "id": 2,
+        "review": "Arinon’s content captures the essence of our Vastu-inspired products beautifully. They’ve helped us connect with the right audience.",
+        "name": "AEIKYAM",
+        "designation": "",
+        "thumb": "11.jpg"
+    },
+    {
+        "id": 3,
+        "review": "Arinon helped bring the essence of 3L Cafe to life online. Their expertise in managing our website and social media elevated our brand.",
+        "name": "3L CAFE",
+        "designation": "",
+        "thumb": "12.jpg"
+    },
+    {
+        "id": 4,
+        "review": "Arinon understands my audience perfectly! Their creative approach has taken my social media to the next level.",
+        "name": "MUSINGS OF AAKANKSHA",
+        "designation": "",
+        "thumb": "10.jpg"
+    },
+    {
+        "id": 5,
+        "review": "Arinon has turned our cafe into a digital hotspot. Their posts capture the warm, cozy vibe we’re known for.",
+        "name": "PETER CAT",
+        "designation": "",
+        "thumb": "11.jpg"
+    },
+    {
+        "id": 6,
+        "review": "We had hired Arinon for digital marketing of our Institute. We had been by far very satisfied with the hard work team has put in for creating awareness of our brand and generating leads. The team is professional and always asks before making any change and confirms before implementing anything. We also got valuable suggestions from them for implementation of our Ad campaign. Thank you Team Arinon.",
+        "name": "Hem Chandra Riyal",
+        "designation": "Director, G Institute of Hotel Management",
+        "thumb": "12.jpg"
+    }
+]

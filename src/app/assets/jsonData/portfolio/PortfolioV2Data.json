@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "client": "Musings of Aakanksha",
+        "thumb": "28.jpg",
+        "tag": "#OrganicInfluencerBranding",
+        "date": "",
+        "text": "Parenting Influencer & Vlogger"
+    },
+    {
+        "id": 2,
+        "client": "Peter Cat Cafe",
+        "thumb": "29.jpg",
+        "tag": "#CafeBrandGrowth",
+        "date": "",
+        "text": "Café & Coffee Spot | Malvern, Melbourne, Australia"
+    },
+    {
+        "id": 3,
+        "client": "Deep Pathways Foundation",
+        "thumb": "30.jpg",
+        "tag": "#Trust",
+        "date": "",
+        "text": "Non-Profit Empowerment Trust | India"
+    },
+    {
+        "id": 4,
+        "client": "Aeikyam",
+        "thumb": "64.jpg",
+        "tag": "#HomeDécor",
+        "date": "",
+        "text": "Conscious Home Décor Brand | India"
+    },
+    {
+        "id": 5,
+        "client": "3L Cafe",
+        "thumb": "65.jpg",
+        "tag": "#CoffeeHouse",
+        "date": "", 
+        "text": "Modern Cafe | Melbourne, Australia"
+    }
+]

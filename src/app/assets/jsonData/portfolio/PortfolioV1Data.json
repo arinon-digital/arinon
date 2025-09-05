@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "client": "Musings of Aakanksha",
+        "thumb": "1.gif",
+        "thumbLight": "43.jpg",
+        "text": "Motion",
+        "textBold": "Graphics"
+    },
+    {
+        "id": 2,
+        "client": "Peter Cat Cafe",
+        "thumb": "2.gif",
+        "thumbLight": "42.jpg",
+        "text": "Market",
+        "textBold": "Branding"
+    }
+]

@@ -1,0 +1,59 @@
+{
+     "quoteData": [
+    {
+      "id": 1,
+      "name": "LAXYA PRODUCTION",
+      "designation": "",
+      "quote": "Arinon’s dedication and expertise in social media have elevated our brand presence. We couldn’t ask for a better partner!"
+    },
+    {
+      "id": 2,
+      "name": "AEIKYAM",
+      "designation": "",
+      "quote": "Arinon’s content captures the essence of our Vastu-inspired products beautifully. They’ve helped us connect with the right audience."
+    },
+    {
+      "id": 3,
+      "name": "3L CAFE",
+      "designation": "",
+      "quote": "Arinon has helped us bring the essence of 3L Cafe to life online. Their expertise in managing our website and social media has truly elevated our brand."
+    },
+    {
+      "id": 4,
+      "name": "MUSINGS OF AAKANKSHA",
+      "designation": "",
+      "quote": "Arinon understands my audience perfectly! Their creative approach has taken my social media to the next level."
+    },
+    {
+      "id": 5,
+      "name": "PETER CAT",
+      "designation": "",
+      "quote": "Arinon has turned our cafe into a digital hotspot. Their posts capture the warm, cozy vibe we’re known for."
+    }
+  ],
+    "navigationData": [
+        {
+            "id": 1,
+            "thumb": "10.avif"
+        },
+        {
+            "id": 2,
+            "thumb": "12.png"
+        },
+        {
+            "id": 3,
+            "thumb": "13.png"
+        },
+        {
+            "id": 4,
+            "thumb": "10.png"
+        },
+        {
+            "id": 5,
+            "thumb": "14.png"
+        }
+       
+    ]
+}
+
+

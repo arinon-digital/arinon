@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Research",
+        "thumb": "5.png",
+        "thumbLight": "27.png",
+        "text": "We dive deep to understand your industry, audience, and competitors—uncovering insights that shape smarter, more effective strategies."
+    },
+    {
+        "id": 2,
+        "title": "Concept",
+        "thumb": "6.png",
+        "thumbLight": "28.png",
+        "text": "Big ideas begin here. We turn insights into bold, creative concepts that align with your vision and drive results."
+    },
+    {
+        "id": 3,
+        "title": "Implement",
+        "thumb": "7.png",
+        "thumbLight": "29.png",
+        "text": "From design to code to campaign, we bring your ideas to life with precision, agility, and performance-driven execution."
+    },
+    {
+        "id": 4,
+        "title": "Handover",
+        "thumb": "8.png",
+        "thumbLight": "30.png",
+        "text": "We deliver polished, high-impact solutions—fully tested, optimized, and ready to scale—with documentation and support to keep you ahead."
+    }
+]
