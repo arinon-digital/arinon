@@ -1,4 +1,4 @@
-import ProcessV1Data from '../../../src/assets/jsonData/process/ProcessV1Data.json';
+import ProcessV1Data from '@/app/assets/jsonData/process/ProcessV1Data.json';
 import SingleProcessV1Light from './SingleProcessV1Light';
 
 interface DataType {

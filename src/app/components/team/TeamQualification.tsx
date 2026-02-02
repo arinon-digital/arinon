@@ -1,4 +1,4 @@
-import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json"
+import SkillProgressData from "@/app/assets/jsonData/progress/SkillProgressData.json"
 import SkillProgress from "../process/SkillProgress";
 
 const TeamQualification = () => {

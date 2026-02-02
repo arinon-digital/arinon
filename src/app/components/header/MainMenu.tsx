@@ -17,8 +17,8 @@ const MainMenu = ({ navbarPlacement }: DataType) => {
 
     return (
         <>
-            <ul className={`nav navbar-nav ${navbarPlacement ? navbarPlacement : ""}`} data-in="fadeInDown" data-out="fadeOutUp">
-                <li className="dropdown megamenu-fw megamenu-style-two">
+            <ul className={`nav navbar-nav  ${navbarPlacement ? navbarPlacement : ""}`} data-in="fadeInDown" data-out="fadeOutUp">
+                <li className="dropdown megamenu-fw  megamenu-style-two">
 
                     {/* onClick={toggleSubMenu} add in Link for dropdown  */}
                     <Link href="/" data-toggle="dropdown" >Home</Link>

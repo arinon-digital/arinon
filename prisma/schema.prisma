@@ -1,0 +1,35 @@
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "binary"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String
+  price       Float
+  currency    String
+  coverUrl    String
+  coverImage  String?
+  driveLink   String
+  createdAt   DateTime @default(now())
+}
+
+model Order {
+  id                String   @id @default(auto()) @map("_id") @db.ObjectId
+  productId         String   @db.ObjectId
+  email             String
+  amount            Float
+  currency          String
+  razorpayOrderId   String   @unique
+  razorpayPaymentId String?  @unique
+  pdfDriveLink      String
+  status            String   @default("PENDING")
+  sentAt            DateTime?
+  createdAt         DateTime @default(now())
+}

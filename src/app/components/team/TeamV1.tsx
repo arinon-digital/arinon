@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard } from 'swiper/modules';
 import SplitText from "../animation/SplitText.jsx";
 import SingleTeamV1 from './SingleTeamV1';
-import TeamV1Data from '../../../src/assets/jsonData/team/TeamV1Data.json';
+import TeamV1Data from '@/app/assets/jsonData/team/TeamV1Data.json';
 
 interface DataType {
     sectionClass?: string;

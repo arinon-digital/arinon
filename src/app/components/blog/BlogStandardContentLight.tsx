@@ -1,4 +1,4 @@
-import BlogData from '../../../src/assets/jsonData/blog/BlogData.json'
+import BlogData from '@/app/assets/jsonData/blog/BlogData.json'
 import SingleBlogStandardLight from './SingleBlogStandardLight';
 import { useEffect, useState } from 'react';
 import Pagination from 'react-paginate';

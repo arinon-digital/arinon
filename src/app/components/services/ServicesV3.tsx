@@ -1,5 +1,5 @@
 import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
-import ServicesV3Data from "../../../src/assets/jsonData/services/ServicesV3Data.json";
+import ServicesV3Data from "@/app/assets/jsonData/services/ServicesV3Data.json";
 import SingleServiceV3 from './SingleServiceV3';
 import { Link } from "react-router-dom";
 import SplitText from "../animation/SplitText.jsx"

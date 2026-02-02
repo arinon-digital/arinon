@@ -1,14 +1,14 @@
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import PrivacyPolicy from "./PrivacyPolicy";
+import PrivacyPolicy from "@/app/privacy-policy/page";
 
 const PrivacyPolicyPage = () => {
-    console.log(document.title);
+    // console.log(document.title);
     return (
         <div className="bg-dark">
-            <Helmet>
+            {/* <Helmet>
                 <title>Arinon - Elevate Your Brand</title>
-            </Helmet>
+            </Helmet> */}
 
             <LayoutV1 >
                 <PrivacyPolicy/>

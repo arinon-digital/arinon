@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Pagination, Navigation, EffectFade } from 'swiper/modules';
-import PortfolioV1Data from '../../../src/assets/jsonData/portfolio/PortfolioV1Data.json';
+import PortfolioV1Data from '@/app/assets/jsonData/portfolio/PortfolioV1Data.json';
 import SinglePortfolioV1Light from './SinglePortfolioV1Light';
 
 const PortfolioV1Light = () => {

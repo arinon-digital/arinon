@@ -19,7 +19,7 @@ const FooterV4 = ({ sectionClass, lightMode }: DataType) => {
             <div className="row">
               <div className="pr-120 pr-md-15 pr-md-15 pr-xs-15 pr-xs-15 col-lg-6 footer-item about">
                 <div className="top">
-                  <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} alt="Image Not Found" width={160} height={40} />
+                  <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} alt="Image Not Found" width={160} height={40} style={{ height: "auto" }} />
                 </div>
                 <ul className="address-list">
                   <li>

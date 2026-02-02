@@ -1,4 +1,4 @@
-import PortfolioV3Data from '../../../src/assets/jsonData/portfolio/PortfolioV3Data.json';
+import PortfolioV3Data from '@/app/assets/jsonData/portfolio/PortfolioV3Data.json';
 import SinglePortfolioV3 from './SinglePortfolioV3';
 import SplitText from "../animation/SplitText.jsx"
 

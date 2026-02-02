@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard } from 'swiper/modules';
-import TeamV2Data from '../../../src/assets/jsonData/team/TeamV2Data.json';
+import TeamV2Data from '@/app/assets/jsonData/team/TeamV2Data.json';
 import SingleTeamV2 from './SingleTeamV2';
 import SplitText from "../animation/SplitText.jsx"
 

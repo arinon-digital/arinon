@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import team1Thumb from "/assets/img/team/9.jpg"
 import BlogPostComments from './BlogPostComments';
 import BlogCommentForm from './BlogCommentForm';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
 import SocialShareV3 from '../social/SocialShareV3';
-import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";
+import BlogV3Data from "@/app/assets/jsonData/blog/BlogV3Data.json";
 import SearchWidget from '../widgets/SearchWidget';
 import RecentPostsWidget from '../widgets/RecentPostsWidget';
 import CategoryWidget from '../widgets/CategoryWidget';
@@ -98,7 +97,7 @@ const BlogSingleWithSidebarContent = ({ blogInfo, totalBlogs, sectionClass }: Bl
                                 {/* Post Author */}
                                 <div className="post-author">
                                     <div className="thumb">
-                                        <img src={team1Thumb} alt="Thumb" />
+                                        <img src="/assets/img/team/9.jpg" alt="Thumb" />
                                     </div>
                                     <div className="info">
                                         <h4><Link to="#" onClick={handleSmoothScroll}>Md Sohag</Link></h4>

@@ -39,7 +39,7 @@ const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
                         <div className="widget">
                             <div className="logo">
                                 <Link href="/home-2">
-                                    <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} />
+                                    <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} style={{ height: "auto" }} />
                                 </Link>
                             </div>
                         </div>

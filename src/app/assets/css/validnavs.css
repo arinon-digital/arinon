@@ -560,7 +560,7 @@ nav.validnavs.navbar-full .navbar-collapse ul.nav {
 }
 
 .validnavs a {
-	color: #232323;
+	color: #ffffff;
 	font-weight: 600;
 	background: transparent;
 }
@@ -1192,7 +1192,7 @@ body.bg-dark.on-side nav.navbar::after {
 	content: "";
 	height: 2px;
 	width: 25px;
-	background: #232323;
+	background: #ffffff;
 	transition: all 0.35s ease-in-out;
 }
 
@@ -1510,7 +1510,8 @@ nav.navbar.validnavs.brand-center {
 
 	nav.navbar.validnavs.navbar-fixed {
 		position: absolute;
-		background: transparent;
+		backdrop-filter: blur(5);
+		background: rgba(0, 0, 0, 0.171);
 	}
 
 	nav.navbar.validnavs.navbar-transparent .attr-nav {

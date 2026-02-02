@@ -42,5 +42,3 @@ export const NavLink = Link;
 export const BrowserRouter = ({ children }: PropsWithChildren) => <>{children}</>;
 export const Routes = ({ children }: PropsWithChildren) => <>{children}</>;
 export const Route = ({ children }: PropsWithChildren) => <>{children}</>;
-
-

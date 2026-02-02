@@ -11,6 +11,7 @@ import MultiSection from "../../components/multi/MultiSection";
 import ProjectV1 from "../../components/project/ProjectV1";
 import ServicesV1 from "../../components/services/ServicesV1";
 import TestimonialV2 from "../../components/testimonial/TestimonialV2";
+import ProductGrid from "../../components/store/ProductGrid";
 
 const Home1 = () => {
     return (
@@ -21,6 +22,7 @@ const Home1 = () => {
                 <AboutV6 sectionClass="bg-dark-secondary" />
                 <ServicesV1 sectionClass='bg-dark default-padding' hasTitle={true} />
                 <ProjectV1 />
+                <ProductGrid />
                 {/* <TeamV1 sectionClass='bg-gray' hasTitle={true} /> */}
                 <TestimonialV2 sectionClass="bg-dark" />
                 <ClientsV1 sectionClass="bg-dark-secondary" />

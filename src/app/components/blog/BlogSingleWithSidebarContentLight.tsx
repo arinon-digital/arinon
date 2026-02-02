@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import team1Thumb from "/assets/img/team/9.jpg"
 import BlogPostComments from './BlogPostComments';
 import BlogCommentForm from './BlogCommentForm';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
@@ -98,7 +97,7 @@ const BlogSingleWithSidebarContentLight = ({ blogInfo, totalBlogs, sectionClass 
                                 {/* Post Author */}
                                 <div className="post-author">
                                     <div className="thumb">
-                                        <img src={team1Thumb} alt="Thumb" />
+                                        <img src="/assets/img/team/9.jpg" alt="Thumb" />
                                     </div>
                                     <div className="info">
                                         <h4><Link to="#" onClick={handleSmoothScroll}>Md Sohag</Link></h4>

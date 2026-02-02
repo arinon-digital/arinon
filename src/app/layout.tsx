@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 // Global CSS
@@ -21,16 +20,6 @@ import "./assets/css/style.css";
 
 import BootstrapClient from "./providers/BootstrapClient"; // 👈 client wrapper
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Arinon - Creative Agency",
   description: "Professional creative agency providing innovative solutions",
@@ -43,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
         <BootstrapClient /> {/* 👈 loads bootstrap.bundle only in browser */}
         {children}
       </body>

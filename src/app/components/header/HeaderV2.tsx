@@ -26,7 +26,7 @@ const HeaderV2 = ({ lightMode }: DataType) => {
                         <div className="col-xl-2 col-lg-3">
                             <div className="navbar-header">
                                 <Link className="navbar-brand" href="/">
-                                    <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-scrolled" alt="Logo" width={160} height={40} priority />
+                                    <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-scrolled" alt="Logo" width={160} height={40} style={{ height: "auto" }} priority />
                                 </Link>
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, FreeMode } from 'swiper/modules';
 import shape10 from "/assets/img/shape/10.png";
-import ServicesV4Data from "../../../src/assets/jsonData/services/ServicesV4Data.json";
+import ServicesV4Data from "@/app/assets/jsonData/services/ServicesV4Data.json";
 import SingleServiceV4 from "./SingleServiceV4";
 import SplitText from "../animation/SplitText.jsx"
 

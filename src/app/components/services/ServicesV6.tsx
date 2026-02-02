@@ -1,4 +1,4 @@
-import ServicesV6Data from '../../../src/assets/jsonData/services/ServicesV6Data.json';
+import ServicesV6Data from '@/app/assets/jsonData/services/ServicesV6Data.json';
 import SingleServiceV6 from './SingleServiceV6';
 import arrowLongRight from "/assets/img/icon/arrow-long-right.png"
 import SplitText from "../animation/SplitText.jsx"

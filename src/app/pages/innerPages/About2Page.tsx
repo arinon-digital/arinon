@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import AboutV4 from "../../components/about/AboutV4";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
@@ -11,10 +10,6 @@ import ZoomVideoV1 from "../../components/videos/ZoomVideoV1";
 const About2Page = () => {
     return (
         <>
-            <Helmet>
-                <title>Arinon - Elevate Your Brand</title>
-            </Helmet>
-
             <LayoutV1>
                 <Breadcrumb title='About Company' breadCrumb='About-2' />
                 <AboutV4 sectionClass='default-padding-bottom' />

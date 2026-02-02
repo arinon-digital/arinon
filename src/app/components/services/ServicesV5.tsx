@@ -1,4 +1,4 @@
-import ServicesV5Data from "../../../src/assets/jsonData/services/ServicesV5Data.json"
+import ServicesV5Data from "@/app/assets/jsonData/services/ServicesV5Data.json"
 import SingleServiceV5 from "./SingleServiceV5";
 
 interface DataType {

@@ -1,4 +1,4 @@
-import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
+import BlogData from '@/app/assets/jsonData/blog/BlogData.json';
 import ArchiveWidget from '../widgets/ArchiveWidget';
 import CategoryWidget from '../widgets/CategoryWidget';
 import FollowWidget from '../widgets/FollowWidget';

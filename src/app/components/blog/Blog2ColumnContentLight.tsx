@@ -1,4 +1,4 @@
-import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";;
+import BlogV3Data from "@/app/assets/jsonData/blog/BlogV3Data.json";;
 import SingleBlog2ColumnLight from './SingleBlog2ColumnLight';
 import { useEffect, useState } from 'react';
 import Pagination from 'react-paginate';

@@ -18,7 +18,7 @@ const AboutV3 = ({ sectionClass }: DataType) => {
                     <div className="row align-center">
                         <div className="col-lg-5">
                             <div className="thumb-style-three">
-                                <img src={thumb11} alt="Image Not Found" />
+                                <img src={thumb11.src} alt="Image Not Found" />
                                 <div className="upDownScrol scroll-shape" />
                             </div>
                         </div>

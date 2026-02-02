@@ -54,9 +54,9 @@ const AboutV1 = ({ lightMode }: DataType) => {
                             <div className="text-scroll-animation about-style-one-info" ref={containerRef}>
                                 <div className="mb-40 video-card">
                                     <div className="thumb">
-                                        <img src={team10} alt="Image Not Found" />
-                                        {/* <img src={team11} alt="Image Not Found" /> */}
-                                        <img src={team12} alt="Image Not Found" />
+                                        <img src={team10.src} alt="Image Not Found" />
+                                        {/* <img src={team11.src} alt="Image Not Found" /> */}
+                                        <img src={team12.src} alt="Image Not Found" />
                                     </div>
                                     <Link to="#" className="popup-youtube" onClick={() => setOpen(true)}>
                                         <i className="fas fa-play" />
@@ -68,8 +68,8 @@ const AboutV1 = ({ lightMode }: DataType) => {
                                 <div className="d-flex">
 
                                     {lightMode ?
-                                        <Link to="/about-us"><img src={arrowThemeIcon} alt="Image Not Found" /></Link> :
-                                        <Link to="/about-us"><img src={arrowIcon} alt="Image Not Found" /></Link>
+                                        <Link to="/about-us"><img src={arrowThemeIcon.src} alt="Image Not Found" /></Link> :
+                                        <Link to="/about-us"><img src={arrowIcon.src} alt="Image Not Found" /></Link>
                                     }
 
                                     <TextScrollAnimation triggerClassName="text">
@@ -84,7 +84,7 @@ const AboutV1 = ({ lightMode }: DataType) => {
                             <div className="bottom-info mt-80 mt-md-50 mt-xs-30">
                                 <div className="thumb">
                                     <div className="img-container">
-                                        <img src={banner3} alt="Image Not Found" />
+                                        <img src={banner3.src} alt="Image Not Found" />
                                     </div>
                                     <div className="about-skills">
                                         {/* Progress Bar */}

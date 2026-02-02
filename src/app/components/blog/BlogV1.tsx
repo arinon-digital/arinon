@@ -1,4 +1,4 @@
-import BlogV1Data from '../../../src/assets/jsonData/blog/BlogV1Data.json';
+import BlogV1Data from '@/app/assets/jsonData/blog/BlogV1Data.json';
 import SingleBlogV1 from './SingleBlogV1';
 import SplitText from "../animation/SplitText.jsx"
 

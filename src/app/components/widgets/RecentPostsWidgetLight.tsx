@@ -1,4 +1,4 @@
-import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
+import BlogData from '@/app/assets/jsonData/blog/BlogData.json';
 import SingleRecentPostLight from './SingleRecentPostLight';
 
 const RecentPostsWidgetLight = () => {

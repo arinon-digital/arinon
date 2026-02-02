@@ -25,12 +25,12 @@ const HeaderV6 = ({ lightMode }: DataType) => {
                                 <i className="fa fa-bars" />
                             </button>
                             <Link className="navbar-brand" href="/">
-                                <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-display" alt="Logo" width={160} height={40} priority />
-                                <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-scrolled" alt="Logo" width={160} height={40} />
+                                <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-display" alt="Logo" width={160} height={40} style={{ height: "auto" }} priority />
+                                <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo logo-scrolled" alt="Logo" width={160} height={40} style={{ height: "auto" }} />
                             </Link>
                         </div>
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
-                            <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} alt="Logo" width={160} height={40} />
+                            <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} alt="Logo" width={160} height={40} style={{ height: "auto" }} />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
                             </button>

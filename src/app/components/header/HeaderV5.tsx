@@ -31,7 +31,7 @@ const HeaderV5 = ({ lightMode }: DataType) => {
                         <div className="col-xl-2 col-lg-3">
                             <div className="navbar-header">
                                 <Link className="navbar-brand" href="/">
-                                    <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo" alt="Logo" width={160} height={40} priority />
+                                    <Image src={lightMode ? "/assets/img/logo.png" : "/assets/img/logo-light.png"} className="logo" alt="Logo" width={160} height={40} style={{ height: "auto" }} priority />
                                 </Link>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const HeaderV5 = ({ lightMode }: DataType) => {
                                     <div className="widget">
                                         <div className="logo">
                                             <Link href="/home-2">
-                                                <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} />
+                                                <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} style={{ height: "auto" }} />
                                             </Link>
                                         </div>
                                     </div>

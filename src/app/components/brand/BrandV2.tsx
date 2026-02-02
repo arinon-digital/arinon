@@ -1,4 +1,4 @@
-import BrandV2Data from '../../../src/assets/jsonData/brand/BrandV2Data.json';
+import BrandV2Data from '@/app/assets/jsonData/brand/BrandV2Data.json';
 import CountUp from 'react-countup';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Keyboard, Pagination } from 'swiper/modules';

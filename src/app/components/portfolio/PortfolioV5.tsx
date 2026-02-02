@@ -1,4 +1,4 @@
-import PortfolioV5Data from '../../../src/assets/jsonData/portfolio/PortfolioV5Data.json';
+import PortfolioV5Data from '@/app/assets/jsonData/portfolio/PortfolioV5Data.json';
 import useUpDownScroll from '../../hooks/useUpDownScroll';
 import SinglePortfolioV5 from './SinglePortfolioV5';
 import shape2 from "/assets/img/shape/2.png"

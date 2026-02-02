@@ -8,9 +8,11 @@ import useSidebarMenu from "../../hooks/useSidebarMenu";
 import useSubMenuToggle from "../../hooks/useSubMenuToggle";
 import useSidebarInfo from "../../hooks/useSidebarInfo";
 import useStickyMenu from "../../hooks/useStickyMenu";
+
 interface HeaderV1Props {
   lightMode?: boolean;
 }
+
 const HeaderV1: React.FC<HeaderV1Props> = ({ lightMode }) => {
   const { isOpen, openMenu, closeMenu } = useSidebarMenu();
   const toggleSubMenu = useSubMenuToggle();
@@ -43,6 +45,7 @@ const HeaderV1: React.FC<HeaderV1Props> = ({ lightMode }) => {
                 alt="Logo"
                 width={160}
                 height={40}
+                style={{ height: "auto" }}
                 priority
               />
               <Image
@@ -51,6 +54,7 @@ const HeaderV1: React.FC<HeaderV1Props> = ({ lightMode }) => {
                 alt="Logo"
                 width={160}
                 height={40}
+                style={{ height: "auto" }}
               />
             </Link>
           </div>
@@ -68,6 +72,7 @@ const HeaderV1: React.FC<HeaderV1Props> = ({ lightMode }) => {
               className="mb-3"
               width={160}
               height={40}
+              style={{ height: "auto" }}
             />
             <button
               type="button"

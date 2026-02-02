@@ -1,4 +1,4 @@
-import AwardV1Data from '../../../src/assets/jsonData/award/AwardV1Data.json'
+import AwardV1Data from '@/app/assets/jsonData/award/AwardV1Data.json'
 import SingleAwardV1 from './SingleAwardV1';
 import SplitText from "../animation/SplitText.jsx"
 

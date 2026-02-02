@@ -1,5 +1,5 @@
 import SingleBlogStandard from './SingleBlogStandard';
-import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
+import BlogData from '@/app/assets/jsonData/blog/BlogData.json';
 import Pagination from 'react-paginate';
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';

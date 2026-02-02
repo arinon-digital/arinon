@@ -6,7 +6,6 @@ import LayoutV1 from "../../components/layouts/LayoutV1";
 const Blog3ColumnPage = () => {
     return (
         <>
-           
             <LayoutV1>
                 <Breadcrumb title='Blogs' breadCrumb='Blog' />
                 <Blog3ColumnContent sectionClass='default-padding-bottom' />

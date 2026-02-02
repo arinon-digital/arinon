@@ -30,7 +30,7 @@ const SidebarInfo = ({ openInfoBar, isInfoOpen, closeInfoBar }: SidebarInfoProps
                     <div className="top">
                         <div className="widget">
                             <div className="logo">
-                                <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} />
+                                <Image src="/assets/img/logo-light.png" alt="Logo" width={160} height={40} style={{ height: "auto" }} />
                             </div>
                         </div>
                         <div className="widget address">

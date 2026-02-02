@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import thumb15 from "/assets/img/thumb/15.jpg";
-import PartnerV2Data from "../../../src/assets/jsonData/partner/PartnerV2Data.json"
+import PartnerV2Data from "@/app/assets/jsonData/partner/PartnerV2Data.json"
 import SinglePartnerV2 from "./SinglePartnerV2";
 import { Keyboard } from 'swiper/modules';
 import SplitText from "../animation/SplitText.jsx"

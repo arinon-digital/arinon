@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, FreeMode } from 'swiper/modules';
-import PortfolioV4Data from '../../../src/assets/jsonData/portfolio/PortfolioV4Data.json';
+import PortfolioV4Data from '@/app/assets/jsonData/portfolio/PortfolioV4Data.json';
 import SinglePortfolioV4 from './SinglePortfolioV4';
 import SplitText from "../animation/SplitText.jsx"
 

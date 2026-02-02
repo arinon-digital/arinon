@@ -1,4 +1,4 @@
-import ServicesV2Data from "../../../src/assets/jsonData/services/ServicesV2Data.json"
+import ServicesV2Data from "@/app/assets/jsonData/services/ServicesV2Data.json"
 import SplitText from "../animation/SplitText.jsx"
 import SingleServiceV2 from "./SingleServiceV2";
 

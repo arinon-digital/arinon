@@ -1,4 +1,4 @@
-import GalleryData from '../../../src/assets/jsonData/widgets/GalleryWidgetData.json'
+import GalleryData from '@/app/assets/jsonData/widgets/GalleryWidgetData.json'
 import { Link } from "react-router-dom";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 

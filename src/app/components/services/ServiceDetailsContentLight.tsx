@@ -1,7 +1,7 @@
 import banner6 from "/assets/img/banner/6.jpg";
 import portfolio45 from "/assets/img/portfolio/45.jpg";
 import portfolio46 from "/assets/img/portfolio/46.jpg";
-import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json";
+import ServicesV1Data from "@/app/assets/jsonData/services/ServicesV1Data.json";
 import { Link } from "react-router-dom";
 
 interface DataType {
