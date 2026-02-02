@@ -50,8 +50,8 @@ const BannerV7 = ({ lightMode }: DataType) => {
                         <div className="row">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="banner-seven-thumb">
-                                    <img src={thumb8} alt="Image Not Found" />
-                                    <img src={thumb9} alt="Image Not Found" />
+                                    <img src={thumb8.src} alt="Image Not Found" />
+                                    <img src={thumb9.src} alt="Image Not Found" />
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">

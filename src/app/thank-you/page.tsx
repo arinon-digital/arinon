@@ -26,9 +26,13 @@ export default async function ThankYouPage({
     );
   }
 
-  const purchase = await prisma.order.findUnique({
-    where: { paypalTransactionId: orderId },
-  });
+  let purchase = null;
+  if (orderId) {
+    purchase = await prisma.order.findUnique({ where: { razorpayPaymentId: orderId } });
+    if (!purchase) {
+      purchase = await prisma.order.findUnique({ where: { razorpayOrderId: orderId } });
+    }
+  }
   const product = purchase ? await prisma.product.findUnique({ where: { id: purchase.productId } }) : null;
 
   const isPaid = purchase?.status === "PAID";

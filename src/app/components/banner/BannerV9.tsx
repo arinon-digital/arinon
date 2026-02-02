@@ -4,6 +4,7 @@
 // import team13 from "/assets/img/team/13.jpg";
 import { Link } from "react-router-dom";
 import SplitTextV2 from "../animation/SplitTextV2.jsx"
+import { easings } from "@react-spring/web"
 
 interface DataType {
     lightMode?: boolean;
@@ -26,7 +27,7 @@ const BannerV9 = ({ lightMode }: DataType) => {
                                                 delay={150}
                                                 animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                                                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                                easing="easeOutCubic"
+                                                easing={easings.easeOutCubic}
                                                 threshold={0.2}
                                                 rootMargin="-50px"
                                             >
@@ -39,7 +40,7 @@ const BannerV9 = ({ lightMode }: DataType) => {
                                                 delay={150}
                                                 animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                                                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                                                easing="easeOutCubic"
+                                                easing={"easeOutCubic" as any}
                                                 threshold={0.2}
                                                 rootMargin="-50px"
                                             >

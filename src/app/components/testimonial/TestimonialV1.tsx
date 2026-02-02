@@ -14,7 +14,7 @@ const TestimonialV1 = () => {
                             <div className="testimonial-one-quote">
                                 <h4 className="sub-title">Testimonials</h4>
                                 <div className="testimonial-quote">
-                                    <img src={shape3} alt="Image Not Found" />
+                                    <img src={shape3.src} alt="Image Not Found" />
                                 </div>
                             </div>
                         </div>

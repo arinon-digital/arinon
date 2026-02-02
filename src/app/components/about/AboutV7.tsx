@@ -55,7 +55,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         <div className="award-style-one">
                                             <div className="top">
                                                 <div className="icon">
-                                                    <img src={icon16} alt="Image Not Found" />
+                                                    <img src={icon16.src} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
                                                     <h4>Award winning creative digital agency</h4>

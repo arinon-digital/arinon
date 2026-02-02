@@ -17,7 +17,7 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                     <div className="row">
                         <div className="pr-110 pr-md-15 pr-xs-15 col-lg-6">
                             <div className="partner-two-thumb">
-                                <img src={thumb15} alt="Image Not Found" />
+                                <img src={thumb15.src} alt="Image Not Found" />
                             </div>
                         </div>
                         <div className="col-lg-6">

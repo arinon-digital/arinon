@@ -1,15 +1,12 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-// Helper function to convert React Router Link to Next.js Link
+// Helper function to convert React Router Link to Next.js Link (avoid JSX in .ts file)
 export const RouterLink = ({ to, children, ...props }: { to: string; children: React.ReactNode; [key: string]: any }) => {
-  return (
-    <Link href={to} {...props}>
-      {children}
-    </Link>
-  );
+  return React.createElement(Link as any, { href: to, ...(props || {}) }, children);
 };
 
 // Helper function to convert React Router useNavigate to Next.js useRouter

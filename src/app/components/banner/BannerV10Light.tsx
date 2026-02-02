@@ -17,7 +17,7 @@ const BannerV10Light = () => {
                         </div>
                         <div className="col-xl-4 col-lg-5">
                             <div className="banner-style-ten-left-info">
-                                <img src={thumb13} alt="Image Not Found" />
+                                <img src={thumb13.src} alt="Image Not Found" />
                                 <div className="fun-fact-style-two">
                                     <div className="counter">
                                         <div className="timer"><CountUp end={28} enableScrollSpy /></div>

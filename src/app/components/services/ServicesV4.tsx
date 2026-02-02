@@ -10,7 +10,7 @@ const ServicesV4 = () => {
         <>
             <div className="services-style-four-area default-padding-bottom overflow-hidden blurry-shape-left">
                 <div className="shape-left-top">
-                    <img src={shape10} alt="Image Not Found" />
+                    <img src={shape10.src} alt="Image Not Found" />
                 </div>
                 <div className="container">
                     <div className="row">

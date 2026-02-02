@@ -4,7 +4,7 @@ import portfolio13 from "/assets/img/portfolio/13.jpg"
 import portfolio14 from "/assets/img/portfolio/14.jpg"
 import portfolio15 from "/assets/img/portfolio/15.jpg"
 import portfolio44 from "/assets/img/portfolio/44.jpg"
-import PortfolioV4Data from "../../../src//assets/jsonData/portfolio/PortfolioV4Data.json";
+import PortfolioV4Data from "@/app/assets/jsonData/portfolio/PortfolioV4Data.json";
 import { toUrlFriendly } from "../../utils/urlHelpers";
 
 interface DataType {
@@ -42,7 +42,7 @@ const ProjectDetailsLightContent = ({ projectInfo, sectionClass, totalProjects }
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="project-details-thumb">
-                                <img src={banner5} alt="Image Not Found" />
+                                <img src={banner5.src} alt="Image Not Found" />
                             </div>
                         </div>
                         <div className="col-lg-10 offset-lg-1">
@@ -95,8 +95,8 @@ const ProjectDetailsLightContent = ({ projectInfo, sectionClass, totalProjects }
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="thumb-grid">
-                                <img src={portfolio13} alt="Thumb" />
-                                <img src={portfolio14} alt="Thumb" />
+                                <img src={portfolio13.src} alt="Thumb" />
+                                <img src={portfolio14.src} alt="Thumb" />
                             </div>
                         </div>
                         <div className="col-lg-5 pl-50 pl-md-15 pl-xs-15">
@@ -143,7 +143,7 @@ const ProjectDetailsLightContent = ({ projectInfo, sectionClass, totalProjects }
                                             </p>
                                         </div>
                                     </div>
-                                    <img src={portfolio15} alt="Image Not Found" />
+                                    <img src={portfolio15.src} alt="Image Not Found" />
                                 </div>
                                 <div className="single-grid">
                                     <div className="item-grid-colum">
@@ -163,7 +163,7 @@ const ProjectDetailsLightContent = ({ projectInfo, sectionClass, totalProjects }
                                                 <li>Search engine optimization (seo)</li>
                                                 <li>Public Relations</li>
                                             </ul>
-                                            <img src={portfolio44} alt="Image Not Found" />
+                                            <img src={portfolio44.src} alt="Image Not Found" />
                                         </div>
                                     </div>
                                 </div>

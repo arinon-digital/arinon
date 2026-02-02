@@ -19,9 +19,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-5">
-                            <div className="about-style-four-thumb">
-                                <img src={about1} alt="Image Not Found" />
-                            </div>
+                        
                         </div>
                         <div className="col-lg-6 offset-lg-1">
                             <div className="about-style-four-info">
@@ -48,7 +46,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                         )}
                                     </div>
                                     <div className="thumb upDownScrolSlow">
-                                        <img src={about4} alt="Image Not Found" />
+                                        <img src={about4.src} alt="Image Not Found" />
                                     </div>
                                 </div>
                             </div>

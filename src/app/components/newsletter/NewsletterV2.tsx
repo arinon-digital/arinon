@@ -19,7 +19,7 @@ const NewsletterV2 = () => {
         <>
             <form className="newsletter style-two" onSubmit={handleForm}>
                 <input type="email" placeholder="Your Email" className="form-control" name="email" autoComplete="off" />
-                <button type="submit"><img src={arrowRightTwo} alt="Image Not Found" /></button>
+                <button type="submit"><img src={arrowRightTwo.src} alt="Image Not Found" /></button>
             </form>
         </>
     );

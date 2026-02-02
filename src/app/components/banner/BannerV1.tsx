@@ -65,9 +65,9 @@ const BannerV1 = ({ lightMode }: DataType) => {
                 <Animate className="animate__animated animate__fadeInRight">
                   <div className="thumb">
                     {lightMode ? (
-                      <img src={illustration8} alt="Image Not Found" />
+                      <img src={illustration8.src} alt="Image Not Found" />
                     ) : (
-                      <img src={illustration5} alt="Image Not Found" />
+                      <img src={illustration5.src} alt="Image Not Found" />
                     )}
                   </div>
                 </Animate>

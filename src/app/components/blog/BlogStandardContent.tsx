@@ -2,7 +2,13 @@ import SingleBlogStandard from './SingleBlogStandard';
 import BlogData from '@/app/assets/jsonData/blog/BlogData.json';
 import Pagination from 'react-paginate';
 import { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+// Use browser history and URLSearchParams instead of react-router in Next.js environment
+const useNavigate = () => (url: string) => { if (typeof window !== 'undefined') { window.history.pushState({}, '', url); } };
+const useParams = () => {
+    if (typeof window === 'undefined') return {} as { page?: string };
+    const params = new URLSearchParams(window.location.search);
+    return { page: params.get('page') } as { page?: string };
+};
 
 interface DataType {
     sectionClass?: string;
@@ -12,7 +18,7 @@ const BlogStandardContent = ({ sectionClass }: DataType) => {
 
     // Pagination 
     const navigate = useNavigate();
-    const { page } = useParams<{ page?: string }>();
+    const { page } = useParams();
 
     // Set initial page from URL
     const currentPageNumber = Number(page) || 1;

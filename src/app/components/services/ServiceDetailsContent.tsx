@@ -31,7 +31,7 @@ interface ServiceDetailsContentProps {
 
 const ServiceDetailsContent = ({ serviceInfo }: ServiceDetailsContentProps) => {
   const { title } = useParams();
-  const originalTitle = fromUrlFriendly(title || '');
+  const originalTitle = fromUrlFriendly(Array.isArray(title) ? title[0] : (title || ''));
   const service = serviceInfo || ServicesV1Data.find(
     (item) => item.title === originalTitle
   );
@@ -93,10 +93,10 @@ const ServiceDetailsContent = ({ serviceInfo }: ServiceDetailsContentProps) => {
               return (
                 <div className="justify-content-center my-5 row" key={i}>
                   <div className="ps-2 ps-md-3 col-lg-5">
-                    {feature.headImg && (
+                    {(feature as any).headImg && (
                       <div className="mb-4">
                         <img
-                          src={`/assets/img/portfolio/${feature.headImg}`}
+                          src={`/assets/img/portfolio/${(feature as any).headImg}`}
                           alt={feature.heading}
                           className="rounded img-fluid"
                         />
@@ -122,10 +122,10 @@ const ServiceDetailsContent = ({ serviceInfo }: ServiceDetailsContentProps) => {
                         ></div>
                       </div>
                       <div className="ps-2 ps-md-3 col-lg-5">
-                        {secondFeature.headImg && (
+                        {(secondFeature as any).headImg && (
                           <div className="mb-4">
                             <img
-                              src={`/assets/img/portfolio/${secondFeature.headImg}`}
+                              src={`/assets/img/portfolio/${(secondFeature as any).headImg}`}
                               alt={secondFeature.heading}
                               className="rounded img-fluid"
                             />

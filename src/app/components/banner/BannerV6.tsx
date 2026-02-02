@@ -25,9 +25,9 @@ const BannerV6 = () => {
                                         <p>We are crafting digital success stories</p>
                                         <div className="expert-card">
                                             <div className="thumb">
-                                                <img src={team10} alt="Image Not Found" />
+                                                <img src={team10.src} alt="Image Not Found" />
                                                 {/* <img src={team11} alt="Image Not Found" /> */}
-                                                <img src={team12} alt="Image Not Found" />
+                                                <img src={team12.src} alt="Image Not Found" />
                                             </div>
                                             <Link to="/team">Meet our experts <i className="fa-arrow-right fas" /></Link>
                                         </div>

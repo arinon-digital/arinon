@@ -18,7 +18,7 @@ const PortfolioV5 = ({ hasShape }: DataType) => {
                 {/* Moving Shape */}
                 {hasShape ?
                     <div className="upDownScrol">
-                        <img src={shape2} alt="Image Not Found" />
+                        <img src={shape2.src} alt="Image Not Found" />
                     </div> : <></>
                 }
 

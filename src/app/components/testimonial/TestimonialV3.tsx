@@ -17,7 +17,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
         }`}
       >
         <div className="shape-style-one">
-          <img className="upDownScrol" src={shape14} alt="Image Not Found" />
+          <img className="upDownScrol" src={shape14.src} alt="Image Not Found" />
         </div>
         <div className="container">
           <div className="testimonial-heading">

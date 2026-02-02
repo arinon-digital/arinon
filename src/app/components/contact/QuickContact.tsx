@@ -36,7 +36,7 @@ const QuickContact = ({ sectionClass, title, titleBold }: DataType) => {
                       opacity: 1,
                       transform: "translate3d(0,0,0)",
                     }}
-                    easing="easeOutCubic"
+                    easing={"easeOutCubic" as any}
                     threshold={0.2}
                     rootMargin="-50px"
                   >

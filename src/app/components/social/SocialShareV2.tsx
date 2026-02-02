@@ -11,7 +11,7 @@ const SocialShareV2 = () => {
             </li>
             <li>
                 <Link className="twitter" to="https://www.x.com" target="_blank">
-                    <img src={twitterDark} alt="Image Not Found" />
+                    <img src={twitterDark.src} alt="Image Not Found" />
                 </Link>
             </li>
             <li>

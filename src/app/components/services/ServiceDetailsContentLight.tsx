@@ -24,7 +24,7 @@ const ServiceDetailsContentLight = ({ serviceInfo, sectionClass }: ServiceDetail
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="service-single-thumb">
-                                    <img src={banner6} alt="Thumb" />
+                                    <img src={banner6.src} alt="Thumb" />
                                 </div>
                             </div>
                         </div>
@@ -80,10 +80,10 @@ const ServiceDetailsContentLight = ({ serviceInfo, sectionClass }: ServiceDetail
                         </div>
                         <div className="mt-80 mt-xs-50 row gallery-two-columns">
                             <div className="col-md-6">
-                                <img src={portfolio45} alt="Image Not Found" />
+                                <img src={portfolio45.src} alt="Image Not Found" />
                             </div>
                             <div className="col-md-6">
-                                <img src={portfolio46} alt="Image Not Found" />
+                                <img src={portfolio46.src} alt="Image Not Found" />
                             </div>
                         </div>
                         <div className="d-grid mt-50 colums-2">

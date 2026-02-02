@@ -8,7 +8,8 @@ import ServicesV1Data from "../../assets/jsonData/services/ServicesV1Data.json"
 
 const ServiceDetailsPage = () => {
     const { title } = useParams();
-    const originalTitle = fromUrlFriendly(title || '');
+    const titleParam = Array.isArray(title) ? title[0] : (title ?? '');
+    const originalTitle = fromUrlFriendly(titleParam);
     const data = ServicesV1Data.find(service => service.title === originalTitle);
 
     return (

@@ -13,9 +13,9 @@ const BannerV2 = () => {
                         <div className="col-lg-7">
                             <div className="banner-two-content">
                                 <h2 className="item-title">Crafting <strong>Digital</strong></h2>
-                                <h2 className="item-title text-end"><img src={arrowRight} alt="Image Not Found" /> Experience</h2>
+                                <h2 className="item-title text-end"><img src={arrowRight.src} alt="Image Not Found" /> Experience</h2>
                                 <div className="d-flex">
-                                    <img src={thumb5} alt="Image Not Found" />
+                                    <img src={thumb5.src} alt="Image Not Found" />
 
                                     <p className="split-text">
                                         <SplitText
@@ -34,8 +34,8 @@ const BannerV2 = () => {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="banner-two-thumb">
-                                <img src={thumb6} alt="Image Not Found" />
-                                <img src={shape1} alt="Image Not Found" />
+                                <img src={thumb6.src} alt="Image Not Found" />
+                                <img src={shape1.src} alt="Image Not Found" />
                             </div>
                         </div>
                     </div>

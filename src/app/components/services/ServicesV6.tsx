@@ -31,7 +31,7 @@ const ServicesV6 = () => {
                                 </h2>
                                 <Link to="/services" className="btn-circle mt-20">
                                     <div className="button-content">
-                                        <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Services</strong>
+                                        <span><img src={arrowLongRight.src} alt="Image Not Found" /></span> <strong>All Services</strong>
                                     </div>
                                 </Link>
                             </div>
