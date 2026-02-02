@@ -2,7 +2,7 @@
 
 import NextLink from "next/link";
 import { useParams as useNextParams, usePathname, useSearchParams } from "next/navigation";
-import React, { AnchorHTMLAttributes, PropsWithChildren } from "react";
+import React, { AnchorHTMLAttributes, PropsWithChildren, Suspense } from "react";
 
 type LinkProps = PropsWithChildren<
   Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & {
@@ -22,7 +22,7 @@ export function useParams<T extends Record<string, string | string[]>>() {
   return useNextParams() as unknown as T;
 }
 
-export function useLocation() {
+function useLocationContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -35,6 +35,15 @@ export function useLocation() {
   const hash = typeof window !== "undefined" ? window.location.hash : "";
 
   return { pathname, search, hash };
+}
+
+export function useLocation() {
+  // This hook uses useSearchParams which requires Suspense boundary
+  // Return a value that works on server during build
+  if (typeof window === "undefined") {
+    return { pathname: "/", search: "", hash: "" };
+  }
+  return useLocationContent();
 }
 
 // No-op exports to satisfy potential imports

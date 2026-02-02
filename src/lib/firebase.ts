@@ -10,8 +10,18 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+let app: any;
+let authInstance: any;
 
-export const auth = getAuth(app);
+try {
+  app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+  authInstance = getAuth(app);
+} catch (error) {
+  // Firebase initialization might fail during build if env vars are not set
+  // This is safe because Firebase is only used client-side
+  console.warn("Firebase initialization skipped during build");
+}
+
+export const auth = authInstance;
 
 

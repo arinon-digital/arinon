@@ -1,3 +1,5 @@
+"use client";
+
 import Blog3ColumnContent from "../../components/blog/Blog3ColumnContent";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";

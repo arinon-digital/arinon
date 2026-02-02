@@ -5,6 +5,8 @@ import AboutUsPage from "../pages/innerPages/AboutUsPage";
 import RoutesScrollToTop from "../components/utilities/RoutesScrollToTop";
 import Dependency from "../components/utilities/Dependency";
 
+export const dynamic = "force-dynamic";
+
 export default function AboutUs() {
   return (
     <>

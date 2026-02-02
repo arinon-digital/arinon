@@ -6,6 +6,8 @@ import { useEffect, useMemo, useState } from 'react';
 import Pagination from 'react-paginate';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
+// Note: This component uses useSearchParams() which requires a Suspense boundary in parent
+
 interface DataType {
     sectionClass?: string
 }
