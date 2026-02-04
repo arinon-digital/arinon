@@ -27,7 +27,7 @@ const ProductCard = ({ product }: Props) => {
       <p className="text-secondary">{product.description}</p>
       <div className="d-flex align-items-center justify-content-between mt-3">
         <span className="fw-bold">
-          ${product.price.toFixed(2)}
+          ₹{product.price.toFixed(2)}
         </span>
         <Link className="btn-full" href={`/checkout/${product.id}`}>
           Buy Now <i className="fa-arrow-right fas" />

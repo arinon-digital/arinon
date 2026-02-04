@@ -192,7 +192,9 @@ img {
 	width: auto;
 	max-width: 100%;
 }
-
+nav{
+	backdrop-filter: blur(10px);
+}
 label {
 	display: inline-block;
 	font-weight: normal;
